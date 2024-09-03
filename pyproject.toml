@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gpt2md"
+version = "0.0.1"
+description = "A simple tool to convert your ChatGPT conversation to Markdown files."
+authors = [
+    { name = "Yoran Gyselen", email = "yoran@gyselen.be" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+dependencies = [
+    # Add dependencies here, e.g., "requests>=2.25.1"
+]
+requires-python = ">=3.9"
+
+[project.urls]
+"Homepage" = "https://github.com/Yoran-Gyselen/gpt2md"
+"Bug Tracker" = "https://github.com/Yoran-Gyselen/gpt2md/issues"
+
+[project.scripts]
+gpt2md = "gpt2md.cli:cli"
