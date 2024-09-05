@@ -4,16 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gpt2md"
-version = "0.0.1"
+version = "0.1"
 description = "A simple tool to convert your ChatGPT conversation to Markdown files."
 authors = [
     { name = "Yoran Gyselen", email = "yoran@gyselen.be" }
 ]
 license = { file = "LICENSE" }
 readme = "README.md"
-dependencies = [
-    # Add dependencies here, e.g., "requests>=2.25.1"
-]
 requires-python = ">=3.9"
 
 [project.urls]

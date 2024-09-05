@@ -1,5 +1,5 @@
 from argparse import ArgumentParser, BooleanOptionalAction
-from main import Gpt2md
+from .main import Gpt2md
 from pathlib import Path
 
 def cli():
