@@ -51,4 +51,4 @@ to discuss what you would like to change.
 
 ## License
 
-gpt2md is licensed under the [MIT license](https://choosealicense.com/licenses/mit/).
+gpt2md is licensed under the [MIT license](https://github.com/Yoran-Gyselen/gpt2md/blob/main/LICENSE).
